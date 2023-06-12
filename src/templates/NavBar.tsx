@@ -1,3 +1,4 @@
+import { HOST_URL } from "@/config/Constants";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
@@ -6,7 +7,7 @@ const NavBar = () => {
             <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
                     <img
-                        src="http://localhost:5173/img/edteam-logo.png"
+                        src={`${HOST_URL}/img/edteam-logo.png`}
                         alt="EdTeam-logo"
                         height="32"
                         className="d-inline-block align-text-top"

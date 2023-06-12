@@ -1,24 +1,26 @@
+import { HOST_URL } from "@/config/Constants";
+
 const HomePage = () => {
     return (
         <div id="carouselExample" className="carousel slide">
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <img
-                        src="http://localhost:5173/img/code1.jpg"
+                        src={`${HOST_URL}/img/code1.jpg`}
                         className="d-block w-100"
                         alt="Code1"
                     />
                 </div>
                 <div className="carousel-item">
                     <img
-                        src="http://localhost:5173/img/code2.jpg"
+                        src={`${HOST_URL}/img/code2.jpg`}
                         className="d-block w-100"
                         alt="Code2"
                     />
                 </div>
                 <div className="carousel-item">
                     <img
-                        src="http://localhost:5173/img/code3.jpg"
+                        src={`${HOST_URL}/img/code3.jpg`}
                         className="d-block w-100"
                         alt="Code3"
                     />
