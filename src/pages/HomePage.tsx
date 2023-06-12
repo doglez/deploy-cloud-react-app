@@ -9,6 +9,7 @@ const HomePage = () => {
                         src={`${HOST_URL}/img/code1.jpg`}
                         className="d-block w-100"
                         alt="Code1"
+                        height="560px"
                     />
                 </div>
                 <div className="carousel-item">
@@ -16,6 +17,7 @@ const HomePage = () => {
                         src={`${HOST_URL}/img/code2.jpg`}
                         className="d-block w-100"
                         alt="Code2"
+                        height="560px"
                     />
                 </div>
                 <div className="carousel-item">
@@ -23,6 +25,7 @@ const HomePage = () => {
                         src={`${HOST_URL}/img/code3.jpg`}
                         className="d-block w-100"
                         alt="Code3"
+                        height="560px"
                     />
                 </div>
             </div>
